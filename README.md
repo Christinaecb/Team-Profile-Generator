@@ -26,14 +26,32 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
-## Screenshot
-
-![Placeholder]()
-
 ## Description
 
 This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
-# Link to Deployed Site:
+## Table of Contents
 
-Link to come
+- [Installation](#Installation)
+- [Tests](#Tests)
+- [Video Walkthrough](#Video-Walkthrough)
+- [Screenshots](#Screenshots)
+- [Questions](#Questions)
+
+## Installation 
+
+1. Clone this repository to your local computer 
+2. In the command line, navigate to the cloned repository (the 'team-profile-generator' directory)
+3. Install the required dependencies (npm inquirer and npm jest) by running the command: **npm install**
+
+## Video Walkthrough
+
+
+## Screenshot
+![Screenshot](./assets/Team%20Screenshot.png)
+
+## Questions
+
+**My Github Profile**: [Christinaecb](https://github.com/Christinaecb)
+
+If you have any further questions, feel free to email me at [christina.e.cbarberi@gmail.com](mailto:christina.e.c.barberi@gmail.com)
