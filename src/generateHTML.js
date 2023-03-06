@@ -51,3 +51,30 @@ function renderIntern(intern) {
         </div>
 `
 }
+
+// Renders whole team 
+function renderTeam(arr) {
+    let html = "";
+    for (var i = 0; i < arr[0].length; i++) {
+        html += renderManager(arr[0][i]);
+    }
+
+    // Sorts engineer array (within team array) by ID (ascending)
+    arr[1].sort(function(a, b) {
+        return a.id - b.id;
+    })
+
+    for (var i = 0; i < arr[1].length; i++) {
+        html += renderEngineer(arr[1][i]);
+    }
+
+    // Sorts intern array (within team array) by ID (ascending)
+    arr[2].sort(function(a, b) {
+        return a.id - b.id;
+    })
+
+    for (var i = 0; i < arr[2].length; i++) {
+        html += renderIntern(arr[2][i]);
+    }
+    return html;
+}
