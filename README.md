@@ -45,7 +45,7 @@ This is a Node.js command-line application that takes in information about emplo
 3. Install the required dependencies (npm inquirer and npm jest) by running the command: **npm install**
 
 ## Video Walkthrough
-
+[Untitled_ Mar 6, 2023 2_40 PM.webm](https://user-images.githubusercontent.com/119627874/223215780-bc371f40-0ca4-43c3-80c1-284394656042.webm)
 
 ## Screenshot
 ![Screenshot](./assets/Team%20Screenshot.png)
