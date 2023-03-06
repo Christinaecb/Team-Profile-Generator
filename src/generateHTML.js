@@ -33,3 +33,21 @@ function renderEngineer(engineer) {
         </div>
 `
 }
+
+// Renders intern information
+function renderIntern(intern) {
+    return `        <div class="card intern flex-container">
+            <div class="card-top">
+                <h2>${intern.getName()}</h2>
+                <h3><i class="fas fa-user-graduate"></i> ${intern.getRole()}</h3>
+            </div>
+            <div class="card-bottom">
+                <p>
+                    <i class="far fa-id-card"></i> ID #${intern.getId()}<br>
+                    <i class="far fa-envelope"></i> <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a><br>    
+                    <i class="fas fa-graduation-cap"></i> ${intern.getSchool()}        
+                </p>
+            </div>
+        </div>
+`
+}
