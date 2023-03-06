@@ -15,3 +15,21 @@ function renderManager(manager) {
         </div>
 `
 }
+
+// Renders engineer information
+function renderEngineer(engineer) {
+    return `        <div class="card engineer flex-container">
+            <div class="card-top">
+                <h2>${engineer.getName()}</h2>
+                <h3><i class="fas fa-laptop-code"></i> ${engineer.getRole()}</h3>
+            </div>
+            <div class="card-bottom">
+                <p>
+                    <i class="far fa-id-card"></i> ID #${engineer.getId()}<br>
+                    <i class="far fa-envelope"></i> <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a><br>            
+                    <i class="fab fa-github"></i> <a href="https://github.com/${engineer.getGithub()}" target="_blank">${engineer.getGithub()}</a>
+                </p>
+            </div>
+        </div>
+`
+}
